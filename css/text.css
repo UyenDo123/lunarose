@@ -1,0 +1,10 @@
+@charset "UTF-8";
+/* CSS Document */
+body{
+	font-family: tahoma, verdana, san-serif;
+	font-size: 16px;
+	color: antiquewhite;
+}
+#bg{
+	background-color: beige;
+}

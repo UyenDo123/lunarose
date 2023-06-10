@@ -1,0 +1,228 @@
+@charset "UTF-8";
+/* CSS common */
+@font-face{
+	font-family: body;
+	src: url("../font/SVN-Gotham Light.ttf"),
+		url("../font/SVN-Gotham Light.eot"),
+		url("../font/SVN-Gotham Light.woff")
+}
+@font-face{
+	font-family: bold;
+	src: url("../font/SVN-Gotham Bold.ttf"),
+		url("../font/SVN-Gotham Bold.woff"),
+		url("../font/SVN-Gotham Bold.eot")
+}
+@font-face{
+	font-family: regular;
+	src: url("../font/SVN-Gotham Regular.ttf"),
+		url("../font/SVN-Gotham Regular.woff"),
+		url("../font/SVN-Gotham Regular.eot")
+}
+*{
+	margin: 0px;
+	padding:0px
+}
+body{
+	font-family: body;
+	font-size: 14pt;
+}
+h1,h2,h4,h6{
+	font-family: bold;
+}
+h3,h5{
+	font-family: regular;
+}
+h1{
+	font-size: 48pt;
+}
+h2{
+	font-size: 40pt;
+}
+h3{
+	font-size: 32pt;
+}
+h4{
+	font-size: 24pt;
+}
+h5{
+	font-size: 20pt;
+}
+h6{
+	font-size: 16pt;
+	margin: 0px;
+}
+li{
+		font-family: regular;
+}
+/*-----header---*/
+
+#bg_header{
+	height: 80px;
+	background-color: #FCF1E4;
+	position: sticky;
+	z-index: 1000;
+}
+#logo{
+	margin-top: 10px;
+}
+#searchbox{
+	margin-top: 20px;
+}
+#searchbox button{
+	border: none;
+	background-color: rgba(0,0,0,0);
+	color: #EFB776;
+	display: block;
+	float: right;
+	width: 20%;
+	
+}
+#search{
+	width: 80%;
+	height: 35px;
+	border: solid #EFB776 2px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 20px 20px 20px 20px;
+	font-size: 10pt;
+	padding-left: 10px;
+}
+#icon ul li{
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-top: 20px;
+}
+#icon ul li a{
+	color: #EFB776;
+}
+/*-----header---*/
+#bg-nav{
+	height: 60px;
+	background-color: #D19D60;
+	
+}
+#nav{
+	height: 40px;
+
+}
+#nav ul{
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+#nav ul li{
+	float: left;
+	display: block;
+
+}
+#nav ul li a{
+	font-size: 18pt;
+	text-decoration: none;
+	color: white;
+	display: block;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 13px;
+	transition: all ease 0.7s;
+	height: 60px;
+}
+#nav ul li a:hover{
+	font-size: 18pt;
+	font-weight: bold;
+	text-decoration: none;
+	background-color: #B2824B;
+	color: #0F385A;
+	display: block;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 13px;
+	transition: all ease 0.7s;
+}
+/*-----footer---*/
+#logo1{
+	height: 162px;
+	width: 137px;
+	margin-top: 50px;
+}
+#shopping{
+	padding-top: 30px;
+}
+#shopping ul li{
+	font-family: body;
+	list-style-type: none;
+	text-decoration: none;
+}
+#shopping ul li a{
+	color: black;
+	transition: all ease 0.5s;
+}
+#shopping ul li a:hover{
+	color: #86A2B9;
+	transition: all ease 0.5s;
+}
+#contact{
+	padding-top: 30px;
+}
+#contact ul li{
+	font-family: body;
+	list-style-type: none;
+	text-decoration: none;
+}
+#contact ul li a{
+	color: black;
+	transition: all ease 0.5s;
+}
+#contact ul li a:hover{
+	color: #86A2B9;
+	transition: all ease 0.5s;
+}
+#sub{
+	padding-top: 30px;
+}
+#bg_footer{
+	background-color: #FCF1E4;
+	margin-top: 40px;
+	height: 285px;
+}
+#button{
+	height: 16px;
+}
+#btn_send{
+	height: 35px;
+	width: 	20%;
+	border: solid #EFB776 2px;
+	background-color: #F5D4AD;
+	display: block;
+	float: right;
+	border-top-right-radius: 30px;
+	border-bottom-right-radius: 30px;
+	border-left:none;
+}
+#searchfoot{
+	width: 80%;
+	height: 35px;
+	border: solid #EFB776 2px;
+	background-color: rgba(0,0,0,0);
+	border-radius: 20px 0px 0px 20px;
+	border-right: none;
+	font-size: 10pt;
+	padding-left: 10px;
+}
+#iconfoot ul li{
+	display: block;
+	float: left;
+	list-style-type: none;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-top: 20px;
+}
+#iconfoot ul li a{
+	color: #EFB776;
+	transition: all ease 0.5s;
+}
+#iconfoot ul li a:hover{
+	color: #86A2B9;
+	transition: all ease 0.5s;
+}
